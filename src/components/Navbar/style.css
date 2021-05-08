@@ -7,6 +7,12 @@
     font-family: 'segoe ui';
   }
   
+.current > li {
+  
+    border-bottom: 2px solid black;
+  
+}
+
   .nav1 {
     height: 55px;
     width: 100%;
@@ -104,6 +110,7 @@
       overflow-y: hidden;
       top: 50px;
       left: 0px;
+      z-index: 100;
     }
 
     .nav1 > .nav-links > a {

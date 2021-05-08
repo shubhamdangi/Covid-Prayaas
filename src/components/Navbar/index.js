@@ -43,9 +43,16 @@ function Navbar() {
         </div>
 
         <div class="nav-links">
-          <NavLink to="/cities">Cities</NavLink>
-          <NavLink to="/states">States</NavLink>
-          <NavLink to="/selfcare">Self Care</NavLink>
+          <NavLink to="/cities" activeClassName="current" exact>
+            <li style={{ listStyleType: "none" }}> Cities</li>
+          </NavLink>
+          <NavLink to="/states" activeClassName="current" exact>
+            <li style={{ listStyleType: "none" }}> States</li>
+          </NavLink>
+          <NavLink to="/selfcare" activeClassName="current" exact>
+            <li style={{ listStyleType: "none" }}> Self Care</li>
+          </NavLink>
+
           <NavLink to="/contribute">Contribute</NavLink>
           <Link to={{ pathname: "https://www.google.com" }} target="_blank">
             {" "}

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Cities from ".";
+import Cities from "./index";
 import { Bhopal } from "./city";
 
 function List() {
@@ -8,14 +8,9 @@ function List() {
     <Router>
       {/* <Cities /> */}
       <div>
-        <Switch>
-          <Route exact path="/cities/bhopal">
-            <Bhopal />
-          </Route>
-          <Route exact path="/cities">
-            <Cities />
-          </Route>
-        </Switch>
+        <Link to="/cities/bhopal" target="blank">
+          Bhopal1
+        </Link>
       </div>
     </Router>
   );

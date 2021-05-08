@@ -1,0 +1,24 @@
+.Head{
+    text-align: center;
+}
+
+.Image{
+    /* margin: -130px 0 -175px 0; */
+    padding-top: 10px;
+    width: 550px;
+    height: 230px;
+    border-radius: 5%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Image {
+        /* margin: -90px 0 -100px 0; */
+        width: 280px;
+        height: 130px;
+    }
+}
+
+p{
+    margin-left: 24px;
+}

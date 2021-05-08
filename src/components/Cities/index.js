@@ -1,19 +1,80 @@
 import React from "react";
 import "./style.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Bhopal } from "./city";
+import { Link } from "react-router-dom";
+import Citymap from "./city-map.png";
 function Cities() {
   return (
-    <div className="cityLinks">
-      <ul class="list-group list-group-flush cities">
-        <li class="list-group-item">
-          <Link to="/cities/bhopal">Bhopal</Link>
-        </li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
+    <div className="citypage">
+      <img
+        src={Citymap}
+        alt="city-map"
+        style={{ width: "25vh", padding: "20px 0 10px 0" }}
+      />
+      <h5>Select your city</h5>
+      <hr />
+      <div className="cityLinks">
+        <ul class="list-group list-group-flush cities">
+          <li class="list-group-item">
+            <Link to="/cities/ahmedabad" target="blank">
+              Ahmedabad
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/bangalore" target="blank">
+              Bangalore
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/bhopal" target="blank">
+              Bhopal
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/gandhinagar" target="blank">
+              Gandhinagar
+            </Link>
+          </li>
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/gurugram" target="blank">
+              Gurugram
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/hyderabad" target="blank">
+              Hyderabad
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/jaipur" target="blank">
+              Jaipur
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/kolkata" target="blank">
+              Kolkata
+            </Link>
+          </li>
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/mumbai" target="blank">
+              Mumbai
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

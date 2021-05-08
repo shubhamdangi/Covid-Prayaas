@@ -1,0 +1,43 @@
+.Head{
+    text-align: center;
+}
+
+.Image{
+    /* margin: -130px 0 -175px 0; */
+    padding-top: 10px;
+    width: 550px;
+    height: 230px;
+    border-radius: 5%;
+}
+
+.dash {
+    background-color: #f5feff;
+}
+
+@media only screen and (max-width: 600px) {
+    .Image {
+        /* margin: -90px 0 -100px 0; */
+        width: 280px;
+        height: 130px;
+    }
+}
+
+p{
+    margin-left: 24px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #f05454;
+}
+
+h3 {
+    text-decoration: none;
+    color: #f05454;
+    
+}
+
+/* h3:hover{
+    color: #3b6ce3;
+} */
+
