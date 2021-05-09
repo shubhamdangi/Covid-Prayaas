@@ -2,11 +2,11 @@
     text-align: center;
 }
 
-.Image{
+.bangaloreImage{
     /* margin: -130px 0 -175px 0; */
     padding-top: 10px;
-    width: 550px;
-    height: 230px;
+    width: 450px;
+    height: 170px;
     border-radius: 5%;
 }
 
@@ -15,7 +15,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .Image {
+    .bangaloreImage {
         /* margin: -90px 0 -100px 0; */
         width: 280px;
         height: 130px;

@@ -1,0 +1,39 @@
+.Head{
+    text-align: center;
+}
+
+.tnImage2{
+   
+    padding-top: 10px;
+    width: 350px;
+    height: 180px;
+    border-radius: 5%;
+}
+
+.dash {
+    background-color: #f5feff;
+}
+
+@media only screen and (max-width: 600px) {
+    .tnImage2 {
+        
+        width: 250px;
+        height: 130px;
+    }
+}
+
+p{
+    margin-left: 24px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #f05454;
+}
+
+h3 {
+    text-decoration: none;
+    color: #f05454;
+    
+}
+

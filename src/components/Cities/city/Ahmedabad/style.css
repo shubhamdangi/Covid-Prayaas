@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.Image{
+.ahemdabadImage{
     /* margin: -130px 0 -175px 0; */
     padding-top: 10px;
     width: 550px;
@@ -12,7 +12,7 @@
 
 
 @media only screen and (max-width: 600px) {
-    .Image {
+    .ahemdabadImage {
         /* margin: -90px 0 -100px 0; */
         width: 280px;
         height: 130px;

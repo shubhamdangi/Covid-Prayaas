@@ -11,10 +11,26 @@ import {
   Gandhinagar,
   Gurugram,
   Hyderabad,
+  Indore,
   Jaipur,
   Kolkata,
   Mumbai,
+  Pune,
+  Ranchi,
 } from "./components/Cities/city";
+import {
+  Ap,
+  Delhi,
+  Goa,
+  Haryana,
+  Karnataka,
+  Kerala,
+  MP,
+  Rajasthan,
+  Telangana,
+  Wb,
+} from "./components/States/StateList";
+import Tamil from "./components/States/StateList/TN";
 
 function App() {
   return (
@@ -63,6 +79,49 @@ function App() {
             </Route>
             <Route exact path="/cities/mumbai">
               <Mumbai />
+            </Route>
+            <Route exact path="/cities/pune">
+              <Pune />{" "}
+            </Route>
+            <Route exact path="/cities/indore">
+              <Indore />{" "}
+            </Route>
+            <Route exact path="/cities/ranchi">
+              <Ranchi />{" "}
+            </Route>
+            <Route exact path="/states/ap">
+              <Ap />{" "}
+            </Route>
+            <Route exact path="/states/delhi">
+              <Delhi />{" "}
+            </Route>
+            <Route exact path="/states/haryana">
+              <Haryana />{" "}
+            </Route>
+            <Route exact path="/states/goa">
+              <Goa />{" "}
+            </Route>
+            <Route exact path="/states/karnataka">
+              <Karnataka />{" "}
+            </Route>
+            <Route exact path="/states/kerala">
+              <Kerala />{" "}
+            </Route>
+            <Route exact path="/states/mp">
+              <MP />{" "}
+            </Route>
+            <Route exact path="/states/rajasthan">
+              <Rajasthan />{" "}
+            </Route>
+            <Route exact path="/states/tn">
+              <Tamil />{" "}
+            </Route>
+
+            <Route exact path="/states/telangana">
+              <Telangana />{" "}
+            </Route>
+            <Route exact path="/states/wb">
+              <Wb />{" "}
             </Route>
           </Switch>
         </div>

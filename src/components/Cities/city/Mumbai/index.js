@@ -7,7 +7,7 @@ function Mumbai() {
     <>
       <div className="dash">
         <div className="Head">
-          <img src={mumImage} alt="mumbai-image" className="Image" />
+          <img src={mumImage} alt="mumbai-image" className="mumbaiImage" />
           <h4>Mumbai Resources.</h4>
           <hr />
         </div>

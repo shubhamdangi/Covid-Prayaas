@@ -13,12 +13,24 @@
   
 }
 
+
+  @media only screen and (max-width: 600px){
+    .current > li {
+  
+    color: #f05454;
+    border-bottom: none;
+  }
+
+  }
+
   .nav1 {
     height: 55px;
     width: 100%;
     background-color: #f1f6f9;
-    position: relative;
-    border-bottom: #f05454 3px solid;
+    /* position: relative; */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; 
+    z-index: 100;
   }
   
   .nav1 > .nav-header {
@@ -111,6 +123,7 @@
       top: 50px;
       left: 0px;
       z-index: 100;
+      
     }
 
     .nav1 > .nav-links > a {
@@ -140,6 +153,19 @@
     .nav1 > #nav-check:checked~ .nav-btn span:nth-of-type(3) {
     opacity: 0;
   }
+  }
+
+
+  @media only screen and (max-width: 600px){
+    .nav1 > .nav-links {
+      border-bottom: #f05454 solid 3px;
+    }
+  }
+
+  @media only screen and (min-width: 600px){
+    .nav1  {
+      border-bottom: #f05454 solid 3px;
+    }
   }
   
   

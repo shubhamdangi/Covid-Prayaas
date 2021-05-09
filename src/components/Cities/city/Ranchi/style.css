@@ -1,0 +1,39 @@
+.Head{
+    text-align: center;
+}
+
+.Image{
+   
+    padding-top: 10px;
+    width: 580px;
+    height: 160px;
+    border-radius: 5%;
+}
+
+.dash {
+    background-color: #f5feff;
+}
+
+@media only screen and (max-width: 600px) {
+    .Image {
+        
+        width: 60px;
+        height: 140px;
+    }
+}
+
+p{
+    margin-left: 24px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #f05454;
+}
+
+h3 {
+    text-decoration: none;
+    color: #f05454;
+    
+}
+

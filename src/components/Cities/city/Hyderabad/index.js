@@ -7,7 +7,11 @@ function Hyderabad() {
     <>
       <div className="dash">
         <div className="Head">
-          <img src={HydImage} alt="gurugram-image" className="Image" />
+          <img
+            src={HydImage}
+            alt="hyderabad-image"
+            className="hyderabadImage"
+          />
           <h4>Hyderabad Resources.</h4>
           <hr />
         </div>

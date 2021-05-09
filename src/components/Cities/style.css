@@ -1,12 +1,11 @@
-.body1{
-    background-color: red;
-}
+
 .cities{
     padding-top: 0vh;
     align-items: center;
     font-size: 5vh;
 }
 .citypage{
+    padding-top: 70px;
     align-items: center;
     justify-content: center;
     text-align: center;

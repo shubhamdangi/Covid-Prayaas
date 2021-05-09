@@ -7,3 +7,6 @@ export { default as Hyderabad } from "./Hyderabad";
 export { default as Jaipur } from "./Jaipur";
 export { default as Kolkata } from "./Kolkata";
 export { default as Mumbai } from "./Mumbai";
+export { default as Pune } from "./Pune";
+export { default as Indore } from "./Indore";
+export { default as Ranchi } from "./Ranchi";

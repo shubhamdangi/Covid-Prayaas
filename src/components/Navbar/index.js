@@ -43,10 +43,10 @@ function Navbar() {
         </div>
 
         <div class="nav-links">
-          <NavLink to="/cities" activeClassName="current" exact>
+          <NavLink to="/cities" activeClassName="current" exact target="blank">
             <li style={{ listStyleType: "none" }}> Cities</li>
           </NavLink>
-          <NavLink to="/states" activeClassName="current" exact>
+          <NavLink to="/states" activeClassName="current" exact target="blank">
             <li style={{ listStyleType: "none" }}> States</li>
           </NavLink>
           <NavLink to="/selfcare" activeClassName="current" exact>

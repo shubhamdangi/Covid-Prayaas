@@ -8,7 +8,11 @@ function Gandhinagar() {
     <>
       <div className="dash">
         <div className="Head">
-          <img src={GImage} alt="gandhinagar-image" className="Image" />
+          <img
+            src={GImage}
+            alt="gandhinagar-image"
+            className="gandhinagarImage"
+          />
           <h4>Gandhinagar Resources.</h4>
           <hr />
         </div>

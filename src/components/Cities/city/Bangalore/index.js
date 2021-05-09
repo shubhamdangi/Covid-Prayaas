@@ -8,7 +8,11 @@ function Bangalore() {
     <>
       <div className="dash">
         <div className="Head">
-          <img src={bangaloreimg} alt="ahmedabad-image" className="Image" />
+          <img
+            src={bangaloreimg}
+            alt="bangalore-image"
+            className="bangaloreImage"
+          />
           <h4>Bangalore Resources.</h4>
           <hr />
         </div>

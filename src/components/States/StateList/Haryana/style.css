@@ -1,0 +1,39 @@
+.Head{
+    text-align: center;
+}
+
+.haryanaImage{
+   
+    padding-top: 10px;
+    width: 440px;
+    height: 180px;
+    border-radius: 5%;
+}
+
+.dash {
+    background-color: #f5feff;
+}
+
+@media only screen and (max-width: 600px) {
+    .haryanaImage {
+        
+        width: 270px;
+        height: 120px;
+    }
+}
+
+p{
+    margin-left: 24px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #f05454;
+}
+
+h3 {
+    text-decoration: none;
+    color: #f05454;
+    
+}
+

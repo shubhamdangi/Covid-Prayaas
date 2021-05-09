@@ -1,0 +1,17 @@
+
+.states{
+    padding-top: 0vh;
+    align-items: center;
+    font-size: 5vh;
+}
+.statepage{
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.list-group-item > a {
+   text-decoration: none; 
+}

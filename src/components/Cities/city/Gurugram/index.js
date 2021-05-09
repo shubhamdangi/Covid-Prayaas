@@ -7,7 +7,7 @@ function Gurugram() {
     <>
       <div className="dash">
         <div className="Head">
-          <img src={GuruImage} alt="gurugram-image" className="Image" />
+          <img src={GuruImage} alt="gurugram-image" className="gurugramImage" />
           <h4>Gurugram Resources.</h4>
           <hr />
         </div>

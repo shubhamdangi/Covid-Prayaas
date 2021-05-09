@@ -7,7 +7,7 @@ function Ahmedabad() {
   return (
     <>
       <div className="Head">
-        <img src={ahmedabad} alt="ahmedabad-image" className="Image" />
+        <img src={ahmedabad} alt="ahmedabad-image" className="ahemdabadImage" />
         <h4>Ahmedabad Resources.</h4>
         <hr />
       </div>

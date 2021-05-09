@@ -7,7 +7,11 @@ function Kolkata() {
     <>
       <div className="dash">
         <div className="Head">
-          <img src={kolkataImage} alt="jaipur-image" className="Image" />
+          <img
+            src={kolkataImage}
+            alt="kolkata-image"
+            className="kolkataImage"
+          />
           <h4>Kolkata Resources.</h4>
           <hr />
         </div>

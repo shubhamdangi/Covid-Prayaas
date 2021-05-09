@@ -1,0 +1,39 @@
+.Head{
+    text-align: center;
+}
+
+.karImage{
+   
+    padding-top: 10px;
+    width: 100px;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.dash {
+    background-color: #f5feff;
+}
+
+@media only screen and (max-width: 600px) {
+    .karImage {
+        
+        width: 80px;
+        height: 120px;
+    }
+}
+
+p{
+    margin-left: 24px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #f05454;
+}
+
+h3 {
+    text-decoration: none;
+    color: #f05454;
+    
+}
+

@@ -2,8 +2,7 @@
     text-align: center;
 }
 
-.Image{
-    /* margin: -130px 0 -175px 0; */
+.jaipurImage{
     padding-top: 10px;
     width: 450px;
     height: 180px;
@@ -15,8 +14,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .Image {
-        /* margin: -90px 0 -100px 0; */
+    .jaipurImage {
         width: 280px;
         height: 120px;
     }
@@ -36,8 +34,4 @@ h3 {
     color: #f05454;
     
 }
-
-/* h3:hover{
-    color: #3b6ce3;
-} */
 

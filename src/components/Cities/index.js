@@ -56,6 +56,13 @@ function Cities() {
 
           <li class="list-group-item">
             {" "}
+            <Link to="/cities/indore" target="blank">
+              Indore
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
             <Link to="/cities/jaipur" target="blank">
               Jaipur
             </Link>
@@ -71,6 +78,20 @@ function Cities() {
             {" "}
             <Link to="/cities/mumbai" target="blank">
               Mumbai
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/pune" target="blank">
+              Pune
+            </Link>
+          </li>
+
+          <li class="list-group-item">
+            {" "}
+            <Link to="/cities/ranchi" target="blank">
+              Ranchi
             </Link>
           </li>
         </ul>

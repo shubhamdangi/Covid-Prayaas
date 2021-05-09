@@ -7,7 +7,7 @@ function Jaipur() {
     <>
       <div className="dash">
         <div className="Head">
-          <img src={jaiImage} alt="jaipur-image" className="Image" />
+          <img src={jaiImage} alt="jaipur-image" className="jaipurImage" />
           <h4>Jaipur Resources.</h4>
           <hr />
         </div>

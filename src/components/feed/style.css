@@ -43,6 +43,7 @@
 @media only screen and (max-width: 600px) {
     .banner{
     padding-left:0;
+    padding-top: 60px;
 
     };
     
