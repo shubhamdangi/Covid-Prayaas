@@ -31,6 +31,7 @@ import {
   Wb,
 } from "./components/States/StateList";
 import Tamil from "./components/States/StateList/TN";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -126,6 +127,7 @@ function App() {
           </Switch>
         </div>
       </Router>
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,6 @@
 }
 
 .indoreImage{
-    /* margin: -130px 0 -175px 0; */
     padding-top: 10px;
     width: 450px;
     height: 180px;
@@ -16,7 +15,6 @@
 
 @media only screen and (max-width: 600px) {
     .indoreImage {
-        /* margin: -90px 0 -100px 0; */
         width: 280px;
         height: 120px;
     }

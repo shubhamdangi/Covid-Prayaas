@@ -13,6 +13,11 @@
   
 }
 
+@media only screen and (max-width: 600px){
+  .dot{
+    display: none;
+  }
+}
 
   @media only screen and (max-width: 600px){
     .current > li {
@@ -24,7 +29,7 @@
   }
 
   .nav1 {
-    height: 55px;
+    height: 52px;
     width: 100%;
     background-color: #f1f6f9;
     /* position: relative; */
@@ -136,7 +141,7 @@
     }
 
     .nav1 > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 330px);
+      height: calc(100vh - 325px);
       overflow-y: auto;
     }
 

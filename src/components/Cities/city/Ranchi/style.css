@@ -2,10 +2,10 @@
     text-align: center;
 }
 
-.Image{
+.ranchiImage{
    
     padding-top: 10px;
-    width: 580px;
+    width: 420px;
     height: 160px;
     border-radius: 5%;
 }
@@ -15,9 +15,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .Image {
+    .ranchiImage {
         
-        width: 60px;
+        width: 260px;
         height: 140px;
     }
 }

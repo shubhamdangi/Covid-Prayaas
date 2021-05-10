@@ -1,13 +1,8 @@
 import React from "react";
 import "./style.css";
 import logo from "./logo.png";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-  Link,
-} from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import rol from "./roli7.gif";
 
 function Navbar() {
   return (
@@ -43,20 +38,47 @@ function Navbar() {
         </div>
 
         <div class="nav-links">
+          <img
+            src={rol}
+            alt="rol gif"
+            style={{ width: "22px", margin: "-4px -6px 0 0" }}
+            className="dot"
+          />
           <NavLink to="/cities" activeClassName="current" exact target="blank">
             <li style={{ listStyleType: "none" }}> Cities</li>
           </NavLink>
           <NavLink to="/states" activeClassName="current" exact target="blank">
             <li style={{ listStyleType: "none" }}> States</li>
           </NavLink>
-          <NavLink to="/selfcare" activeClassName="current" exact>
+          <NavLink
+            to="/selfcare"
+            activeClassName="current"
+            exact
+            target="blank"
+          >
             <li style={{ listStyleType: "none" }}> Self Care</li>
           </NavLink>
+          <Link
+            to={{ pathname: "https://www.covid19india.org" }}
+            target="blank"
+          >
+            {" "}
+            Statistics{" "}
+          </Link>
 
-          <NavLink to="/contribute">Contribute</NavLink>
-          <Link to={{ pathname: "https://www.google.com" }} target="_blank">
+          {/* <NavLink to="/contribute">Contribute</NavLink> */}
+
+          {/* <Link to={{ pathname: "https://www.google.com" }} target="_blank">
             {" "}
             About{" "}
+          </Link> */}
+
+          <Link
+            to={{ pathname: "https://selfregistration.cowin.gov.in/" }}
+            target="blank"
+          >
+            {" "}
+            Register for Vaccination{" "}
           </Link>
         </div>
       </div>

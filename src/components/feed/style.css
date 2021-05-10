@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
 .banner {
     text-decoration: none;
-    background-color: bisque;
+    background-color: #fcf8e8;
     justify-content: center;
     width: 100%;
     /* height: 600px; */
@@ -14,20 +17,21 @@
 }
 
 .head{
+    font-family: 'Open Sans', sans-serif;
     padding: 0;
      margin: 0;
      letter-spacing: 1px;
      font-size: 7vh;
-     font-weight: 600;
+     font-weight: bolder;
 }
 
-.tag{
+.tag1{
     margin: 0;
     padding: 0;
 }
 .note{
-    padding:'0 1px 0 1px';
-    margin: '0 1px 0 1px';
+    padding:'0 2px 0 2px';
+    margin: '0 1px 0 0px';
 }
 
 .pic{
@@ -38,12 +42,35 @@
     
 }
 
+.contents{
+    margin-left: 8%;
+    margin-right: 5%;
+}
 
+
+h3 > .citys {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 600px){
+    .dot2{
+      display: none;
+    }
+  }
+
+
+@media only screen and (max-width: 600px){
+    .contents{
+        margin-left: 0;
+        margin-right: 3px;
+    }
+  }
 
 @media only screen and (max-width: 600px) {
     .banner{
     padding-left:0;
     padding-top: 60px;
+    padding-bottom: 10px;
 
     };
     
@@ -67,3 +94,50 @@
           width: 82%;
       }
   }
+
+
+  .Head{
+    text-align: center;
+}
+
+.flagImage{
+    /* margin: -130px 0 -175px 0; */
+    margin-top: 10px;
+    width: 170px;
+    height: 180px;
+    border-radius: 5%;
+}
+
+.dash {
+    background-color: #f5feff;
+}
+
+@media only screen and (max-width: 600px) {
+    .flagImage {
+        width: 120px;
+        height: 135px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+/* p{
+    margin-left: 24px;
+} */
+
+p > a {
+    text-decoration: none;
+    color: #f05454;
+}
+
+h3 {
+    text-decoration: none;
+    color: #f05454;
+    
+}
+

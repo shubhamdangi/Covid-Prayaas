@@ -2,22 +2,35 @@
     text-align: center;
 }
 
-.apImage{
-   
+.selfImage{
     padding-top: 10px;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 175px;
     border-radius: 5%;
 }
 
-.dash {
+.dash1 {
+    padding-top: 70px;
     background-color: #f5feff;
 }
 
+.contents{
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .contents{
+        margin-left: 0;
+        margin-right: 3px;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
-    .apImage {
-        
-        width: 120px;
+    .selfImage {
+        width: 110px;
         height: 120px;
     }
 }
