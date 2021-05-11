@@ -1,7 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
 .footer{
-    margin-top: 100px;
-    display: flex;
+
+    /* margin-top: 100px; */
+    /* display: flex; */
     justify-content: center;
     background-color: #f1f6f9;
-    height: 90px;
+    height: 140px;
+    align-items: center;
+    text-align: center;
+    /* padding-top: 50px;
+    padding-bottom: 110px; */
+    border-top: 1px solid #9e9ea0;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+.icons{
+    padding: 10px;
+    /* color: #393e46; */
+    color: #626266;
+}
+
+.footlink{
+    margin-top: -11px;
+    margin-left: 0;
+    word-spacing: 5px;
+    font-weight: 600;
+
+}
+
+.footlink > a {
+    color: #5C5C60;
 }

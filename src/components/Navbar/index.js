@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import logo from "./logo.png";
 import { NavLink, Link } from "react-router-dom";
-import rol from "./roli7.gif";
+import rol from "./rolo1.gif";
 
 function Navbar() {
   return (

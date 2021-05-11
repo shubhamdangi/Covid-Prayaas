@@ -32,6 +32,8 @@ import {
 } from "./components/States/StateList";
 import Tamil from "./components/States/StateList/TN";
 import Footer from "./components/Footer";
+import Contribute from "./components/Contribute";
+import About from "./components/About";
 
 function App() {
   return (
@@ -124,10 +126,17 @@ function App() {
             <Route exact path="/states/wb">
               <Wb />{" "}
             </Route>
+            <Route exact path="/contribute">
+              <Contribute />{" "}
+            </Route>
+            <Route exact path="/about">
+              <About />{" "}
+            </Route>
           </Switch>
         </div>
+        <br />
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
 .Head{
     text-align: center;
 }
@@ -10,6 +13,8 @@
 }
 
 .dash1 {
+    font-family: 'Open Sans', sans-serif;
+
     padding-top: 70px;
     background-color: #f5feff;
 }

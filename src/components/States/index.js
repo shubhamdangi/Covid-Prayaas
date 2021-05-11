@@ -11,7 +11,7 @@ function States() {
         alt="city-map"
         style={{ width: "30vh", padding: "10px 0 0px 0" }}
       />
-      <h5>Select State </h5>
+      <h5>Select State Below </h5>
       <hr />
       <div className="cityLinks">
         <ul class="list-group list-group-flush states">

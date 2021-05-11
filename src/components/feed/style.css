@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+.feedpage{
+    background-color: #fffbdf;
 
+    /* background-color: #fcf8e8; */
+
+}
 .banner {
+    
     text-decoration: none;
-    background-color: #fcf8e8;
+    background-color: #fffbdf;
     justify-content: center;
     width: 100%;
     /* height: 600px; */
@@ -12,8 +18,6 @@
     padding-bottom: 8rem;
     padding-top: 10%;
     padding-left: 8%;
-
-
 }
 
 .head{
@@ -43,12 +47,14 @@
 }
 
 .contents{
+    
     margin-left: 8%;
     margin-right: 5%;
 }
 
 
 h3 > .citys {
+    
     text-decoration: none;
 }
 
@@ -97,6 +103,8 @@ h3 > .citys {
 
 
   .Head{
+    font-family: 'Open Sans', sans-serif;
+
     text-align: center;
 }
 
@@ -108,8 +116,9 @@ h3 > .citys {
     border-radius: 5%;
 }
 
-.dash {
-    background-color: #f5feff;
+.dash2 {
+    
+    background-color: #fcf8e8;
 }
 
 @media only screen and (max-width: 600px) {
@@ -136,8 +145,10 @@ p > a {
 }
 
 h3 {
+    font-family: 'Open Sans', sans-serif;
+
     text-decoration: none;
     color: #f05454;
     
 }
-
+ 
