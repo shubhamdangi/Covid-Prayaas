@@ -24,8 +24,8 @@ function Contribute() {
       <div className="mobile">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLScCVb44pWKwtrjkOa_cct1-S0fOtzS4hFWfQggvs05m1d6DjA/viewform?embedded=true"
-          width="300"
-          height="1510"
+          width="350"
+          height="1410"
           scrolling="no"
           frameborder="0"
           marginheight="0"

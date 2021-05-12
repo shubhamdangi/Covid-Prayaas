@@ -15,7 +15,7 @@ function About() {
       />
       <p style={{ fontSize: "20px", marginLeft: "0" }}>
         Hello, i'm Shubham Dangi a web developer from Bangalore India, and I
-        created <span style={{ fontWeight: "600" }}>COVID Sahayog</span> to help
+        created <span style={{ fontWeight: "600" }}>COVID Prayaas</span> to help
         people access multiple resources related to COVID-19 at one place
         quickly and accurately.
       </p>

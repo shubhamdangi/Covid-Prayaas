@@ -17,8 +17,16 @@ function Feed() {
                 <h1 class="heading head">
                   A comprehensive collection of COVID-19 resources across India.
                 </h1>
+                <h1 class="heading head-m">
+                  A comprehensive collection of COVID-19 resources across India.
+                </h1>
                 <br />
-                <p style={{ padding: " 10px 0 30px 0", marginLeft: "-4px" }}>
+                <p
+                  style={{
+                    padding: " 10px 10px 30px 10px",
+                    marginLeft: "-4px",
+                  }}
+                >
                   <span style={{ fontWeight: "600" }}>Note: </span>I've manually
                   curated the content, But due to the nature and paucity of the
                   information, All resources are{" "}

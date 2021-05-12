@@ -22,7 +22,7 @@ function Navbar() {
                   padding: "0",
                 }}
               >
-                COVID Sahayog
+                COVID Prayaas
                 <img src={logo} alt="logo" style={{ marginTop: "4px" }} />
               </p>
             </NavLink>
