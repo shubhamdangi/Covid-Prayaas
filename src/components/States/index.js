@@ -90,6 +90,8 @@ function States() {
             </Link>
           </li>
         </ul>
+        <br />
+        <p style={{ textAlign: "center" }}>more States coming soon..</p>
       </div>
     </div>
   );

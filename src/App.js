@@ -34,8 +34,16 @@ import Tamil from "./components/States/StateList/TN";
 import Footer from "./components/Footer";
 import Contribute from "./components/Contribute";
 import About from "./components/About";
+import ReactGA from "react-ga";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("UA-178759939-5");
+
+    ReactGA.pageview("/");
+  }, []);
+
   return (
     <div className="App">
       <Router>

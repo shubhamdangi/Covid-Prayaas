@@ -27,16 +27,16 @@ function Feed() {
                     marginLeft: "-4px",
                   }}
                 >
-                  <span style={{ fontWeight: "600" }}>Note: </span>I've manually
-                  curated the content, But due to the nature and paucity of the
-                  information, All resources are{" "}
+                  <span style={{ fontWeight: "600" }}>Disclaimer: </span>I've
+                  manually curated the content, But due to the nature and
+                  paucity of the information, All resources are{" "}
                   <span style={{ fontWeight: "600" }}>not</span> personally
                   verified. Please use caution and perform due diligence before
                   using them.
                   <br />
                   <br />
                   <span style={{ fontWeight: "600" }}>Last Updated: </span>
-                  12/05/2021 · 08:22 AM
+                  13/05/2021 · 04:15 PM
                 </p>
               </div>
               <div class="col-lg-6 ml-auto">
@@ -139,6 +139,16 @@ function Feed() {
                   <br /> ⦾ States: Maharashtra, Karnataka, West Bengal, etc
                   <br /> ⦾ Resources: Oxygen cylinders, Ventilators, Ambulance,
                   etc
+                </p>
+              </li>
+              <li class="list-group-item dash">
+                <a href="https://under45.in/telegram.php">
+                  <h3>▷Telegram Alerts for Vaccination Slots</h3>
+                </a>
+                <p>
+                  {" "}
+                  This tool provides telegram alerts for vaccination slots in
+                  your city for under the age of 45 people.
                 </p>
               </li>
               <li class="list-group-item dash">

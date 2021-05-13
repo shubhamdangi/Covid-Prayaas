@@ -95,6 +95,8 @@ function Cities() {
             </Link>
           </li>
         </ul>
+        <br />
+        <p style={{ textAlign: "center" }}>more Cities coming soon..</p>
       </div>
     </div>
   );

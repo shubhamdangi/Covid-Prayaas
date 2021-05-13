@@ -32,12 +32,12 @@ function Footer() {
           Curated with ♥️ by Shubham Dangi <br />{" "}
         </p>
         <p className="footlink">
-          <Link to="/contribute" exact>
+          <Link to="/contribute" exact target="blank">
             <u> Contribute</u>
           </Link>{" "}
           {""}· {""}
           {""}
-          <Link to="/about" exact>
+          <Link to="/about" exact target="blank">
             <u>About </u>
           </Link>
         </p>
