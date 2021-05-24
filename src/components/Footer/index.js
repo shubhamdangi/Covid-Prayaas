@@ -17,9 +17,14 @@ function Footer() {
           <a href="https://www.linkedin.com/in/ishubhamdangi/">
             <i class="icons fab fa-linkedin-in fa-lg"></i>
           </a>
-          <a href="mailto:cybergeek.shubham404@gmail.com">
-            <i class="icons fas fa-envelope fa-lg #4ca1a3"></i>
+
+          <a href="https://github.com/technoshubham">
+            <i class="icons fab fa-github fa-lg"></i>
           </a>
+
+          {/* <a href="mailto:cybergeek.shubham404@gmail.com">
+            <i class="icons fas fa-envelope fa-lg #4ca1a3"></i>
+          </a> */}
         </div>
         <p
           style={{

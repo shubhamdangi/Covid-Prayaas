@@ -14,10 +14,11 @@ function About() {
         style={{ width: "150px", padding: "15px" }}
       />
       <p style={{ fontSize: "20px", marginLeft: "0" }}>
-        Hello, i'm Shubham Dangi a web developer from Bangalore India, and I
-        created <span style={{ fontWeight: "600" }}>COVID Prayaas</span> to help
-        people access multiple resources related to COVID-19 at one place
-        quickly and accurately.
+        Hello, i'm Shubham Dangi a 3rd year CSE student & a web developer from
+        Bangalore India, and I created{" "}
+        <span style={{ fontWeight: "600" }}>COVID Prayaas</span> to help people
+        access multiple resources related to COVID-19 at one place quickly and
+        accurately.
       </p>
       <p style={{ fontSize: "20px", marginLeft: "0" }}>
         <span style={{ fontWeight: "600" }}>Disclaimer: </span> All of the
@@ -28,6 +29,8 @@ function About() {
         I've manually curated the content, But due to the nature and paucity of
         the information, All resources are not personally verified. Please use
         caution and perform due diligence before using them.
+        <br /> <br />
+        Launched on: 14 May 2021
       </p>
     </div>
   );

@@ -36,7 +36,7 @@ function Feed() {
                   <br />
                   <br />
                   <span style={{ fontWeight: "600" }}>Last Updated: </span>
-                  13/05/2021 · 04:15 PM
+                  22/05/2021 · 12:17 PM
                 </p>
               </div>
               <div class="col-lg-6 ml-auto">
@@ -139,6 +139,16 @@ function Feed() {
                   <br /> ⦾ States: Maharashtra, Karnataka, West Bengal, etc
                   <br /> ⦾ Resources: Oxygen cylinders, Ventilators, Ambulance,
                   etc
+                </p>
+              </li>
+              <li class="list-group-item dash">
+                <a href="https://bookmyslot.life/">
+                  <h3>▷BookMySlot</h3>
+                </a>
+                <p>
+                  {" "}
+                  A simple desktop app for automatic vaccination appointment
+                  booking.
                 </p>
               </li>
               <li class="list-group-item dash">
