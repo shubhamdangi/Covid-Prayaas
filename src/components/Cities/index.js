@@ -8,7 +8,7 @@ function Cities() {
       <img
         src={Citymap}
         alt="city-map"
-        style={{ width: "25vh", padding: "20px 0 10px 0" }}
+        style={{ width: "23vh", padding: "11px 0 10px 0" }}
       />
       <h5>Select your city</h5>
       <hr />

@@ -22,7 +22,7 @@ function About() {
       </p>
       <p style={{ fontSize: "20px", marginLeft: "0" }}>
         <span style={{ fontWeight: "600" }}>Disclaimer: </span> All of the
-        information curated here is already publicly available and I Do Not own
+        information curated here is already publicly available and I Do Not Own
         any of it. I've just tried to organize multiple resources in one place
         so people can easily access them. All of the information is Not 100%
         verified by me. <br /> <br />
