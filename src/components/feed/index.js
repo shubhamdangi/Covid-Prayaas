@@ -36,7 +36,7 @@ function Feed() {
                   <br />
                   <br />
                   <span style={{ fontWeight: "600" }}>Last Updated: </span>
-                  08/06/2021 · 07:48 AM
+                  20/06/2021 · 01:05 AM
                 </p>
               </div>
               <div class="col-lg-6 ml-auto">
