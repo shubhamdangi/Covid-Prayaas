@@ -6,4 +6,5 @@
 * Resources curated according to different cities, states and also containing national resources.
 * Providing option to submit a resource and contribute.
 
+
 [Visit](https://covidprayas.web.app)
