@@ -1,7 +1,10 @@
-# **COVID Prayaas v1.0.0**
+# **COVID Prayaas**
 
 * *A comprehensive collection of COVID-19 resources across India.*
-  * classified into cities and states 
+* Created during the second wave of COVID in India.
+* Having over 500+ visits
+* Resources curated according to different cities, states and also containing national resources.
+* Providing option to submit a resource and contribute.
 
 1. View resourses
 2. Submit resources
