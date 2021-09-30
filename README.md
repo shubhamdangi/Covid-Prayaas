@@ -7,4 +7,3 @@
 * Providing option to submit a resource and contribute.
 
 
-Web: [Visit](https://covidprayas.web.app)
