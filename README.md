@@ -1,8 +1,10 @@
 # **COVID Prayaas**
 
+visit: [COVID PRAYAAS](https://covidprayaas.web.app)
+
 * *A comprehensive collection of COVID-19 resources across India.*
 * Created during the second wave of COVID in India.
-* Having over 500+ visits
+* Having over 200+ visits
 * Resources curated according to different cities, states and also containing national resources.
 * Providing option to submit a resource and contribute.
 
