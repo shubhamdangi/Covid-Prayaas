@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 import Citymap from "./city-map.png";
 function Cities() {
+  useEffect(() => {
+    document.title = "Covid Prayaas | Cities";
+  }, []);
+
   return (
     <div className="citypage">
       <img
@@ -15,84 +19,60 @@ function Cities() {
       <div className="cityLinks">
         <ul class="list-group list-group-flush cities">
           <li class="list-group-item">
-            <Link to="/cities/ahmedabad" target="blank">
-              Ahmedabad
-            </Link>
+            <Link to="/cities/ahmedabad">Ahmedabad</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/bangalore" target="blank">
-              Bangalore
-            </Link>
+            <Link to="/cities/bangalore">Bangalore</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/bhopal" target="blank">
-              Bhopal
-            </Link>
+            <Link to="/cities/bhopal">Bhopal</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/gandhinagar" target="blank">
-              Gandhinagar
-            </Link>
+            <Link to="/cities/gandhinagar">Gandhinagar</Link>
           </li>
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/gurugram" target="blank">
-              Gurugram
-            </Link>
+            <Link to="/cities/gurugram">Gurugram</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/hyderabad" target="blank">
-              Hyderabad
-            </Link>
+            <Link to="/cities/hyderabad">Hyderabad</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/indore" target="blank">
-              Indore
-            </Link>
+            <Link to="/cities/indore">Indore</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/jaipur" target="blank">
-              Jaipur
-            </Link>
+            <Link to="/cities/jaipur">Jaipur</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/kolkata" target="blank">
-              Kolkata
-            </Link>
+            <Link to="/cities/kolkata">Kolkata</Link>
           </li>
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/mumbai" target="blank">
-              Mumbai
-            </Link>
+            <Link to="/cities/mumbai">Mumbai</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/pune" target="blank">
-              Pune
-            </Link>
+            <Link to="/cities/pune">Pune</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/cities/ranchi" target="blank">
-              Ranchi
-            </Link>
+            <Link to="/cities/ranchi">Ranchi</Link>
           </li>
         </ul>
         <br />

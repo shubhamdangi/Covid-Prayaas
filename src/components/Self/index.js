@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import self from "./house.png";
 function Self() {
+  useEffect(() => {
+    document.title = "Covid Prayaas | Self Care";
+  }, []);
+
   return (
     <>
       <div className="dash1">

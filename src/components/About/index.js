@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import info from "./info.png";
 
 function About() {
+  useEffect(() => {
+    document.title = "Covid Prayaas | About";
+  }, []);
   return (
     <div
       className="aboutpage"
@@ -14,8 +17,8 @@ function About() {
         style={{ width: "150px", padding: "15px" }}
       />
       <p style={{ fontSize: "20px", marginLeft: "0" }}>
-        Hello, i'm Shubham Dangi a 3rd year CSE student & a web developer from
-        Bangalore India, and I created{" "}
+        Hello, i'm Shubham Dangi a CSE student & a web developer from Bangalore
+        India, and I created{" "}
         <span style={{ fontWeight: "600" }}>COVID Prayaas</span> to help people
         access multiple resources related to COVID-19 at one place quickly and
         accurately.
@@ -30,7 +33,7 @@ function About() {
         the information, All resources are not personally verified. Please use
         caution and perform due diligence before using them.
         <br /> <br />
-        Launched on: 14 May 2021
+        <span style={{ fontWeight: "550" }}>Launched on: </span> 14 May 2021
       </p>
     </div>
   );

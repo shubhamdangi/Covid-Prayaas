@@ -44,33 +44,26 @@ function Navbar() {
             style={{ width: "22px", margin: "-4px -6px 0 0" }}
             className="dot"
           />
-          <NavLink to="/cities" activeClassName="current" exact target="blank">
+          <NavLink to="/cities" activeClassName="current">
             <li style={{ listStyleType: "none" }}> Cities</li>
           </NavLink>
-          <NavLink to="/states" activeClassName="current" exact target="blank">
+          <NavLink to="/states" activeClassName="current">
             <li style={{ listStyleType: "none" }}> States</li>
           </NavLink>
-          <NavLink
-            to="/selfcare"
-            activeClassName="current"
-            exact
-            target="blank"
-          >
+          <NavLink to="/selfcare" activeClassName="current">
             <li style={{ listStyleType: "none" }}> Self Care</li>
           </NavLink>
-          <Link
+
+          <NavLink to="/contribute" activeClassName="current">
+            <li style={{ listStyleType: "none" }}> Contribute</li>
+          </NavLink>
+
+          {/* <Link
             to={{ pathname: "https://www.covid19india.org" }}
             target="blank"
           >
             {" "}
             Statistics{" "}
-          </Link>
-
-          {/* <NavLink to="/contribute">Contribute</NavLink> */}
-
-          {/* <Link to={{ pathname: "https://www.google.com" }} target="_blank">
-            {" "}
-            About{" "}
           </Link> */}
 
           <Link

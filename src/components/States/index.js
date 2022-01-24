@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import map from "./india.png";
 import "./style.css";
 import { Link } from "react-router-dom";
 
 function States() {
+  useEffect(() => {
+    document.title = "Covid Prayaas | States";
+  }, []);
+
   return (
     <div className="statepage">
       <img
@@ -16,78 +20,56 @@ function States() {
       <div className="cityLinks">
         <ul class="list-group list-group-flush states">
           <li class="list-group-item">
-            <Link to="/states/ap" target="blank">
-              Andhra Pradesh
-            </Link>
+            <Link to="/states/ap">Andhra Pradesh</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/delhi" target="blank">
-              Delhi
-            </Link>
+            <Link to="/states/delhi">Delhi</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/haryana" target="blank">
-              Haryana
-            </Link>
+            <Link to="/states/haryana">Haryana</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/goa" target="blank">
-              Goa
-            </Link>
+            <Link to="/states/goa">Goa</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/karnataka" target="blank">
-              Karnataka
-            </Link>
+            <Link to="/states/karnataka">Karnataka</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/kerala" target="blank">
-              Kerala
-            </Link>
+            <Link to="/states/kerala">Kerala</Link>
           </li>
           <li class="list-group-item">
             {" "}
-            <Link to="/states/mp" target="blank">
-              Madhya Pradesh
-            </Link>
+            <Link to="/states/mp">Madhya Pradesh</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/rajasthan" target="blank">
-              Rajasthan
-            </Link>
+            <Link to="/states/rajasthan">Rajasthan</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/tn" target="blank">
-              Tamil Nadu
-            </Link>
+            <Link to="/states/tn">Tamil Nadu</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/telangana" target="blank">
-              Telangana
-            </Link>
+            <Link to="/states/telangana">Telangana</Link>
           </li>
 
           <li class="list-group-item">
             {" "}
-            <Link to="/states/wb" target="blank">
-              West Bengal
-            </Link>
+            <Link to="/states/wb">West Bengal</Link>
           </li>
         </ul>
         <br />

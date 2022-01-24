@@ -36,6 +36,7 @@ import Contribute from "./components/Contribute";
 import About from "./components/About";
 import ReactGA from "react-ga";
 import { useEffect } from "react";
+import Scroll from "./components/Scroll";
 
 function App() {
   useEffect(() => {
@@ -145,6 +146,7 @@ function App() {
         <br />
         <Footer />
       </Router>
+      <Scroll showBelow={550} />
     </div>
   );
 }

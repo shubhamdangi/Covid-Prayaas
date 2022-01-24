@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 
 function Footer() {
   return (
@@ -34,15 +35,19 @@ function Footer() {
             marginLeft: "0",
           }}
         >
-          Curated with ♥️ by Shubham Dangi <br />{" "}
+          Curated with{" "}
+          <span style={{ width: "10px", height: "10px" }}>
+            <i class="fas fa-heart"></i>
+          </span>{" "}
+          by Shubham Dangi <br />{" "}
         </p>
         <p className="footlink">
-          <Link to="/contribute" exact target="blank">
+          <Link to="/contribute">
             <u> Contribute</u>
           </Link>{" "}
           {""}· {""}
           {""}
-          <Link to="/about" exact target="blank">
+          <Link to="/about">
             <u>About </u>
           </Link>
         </p>
