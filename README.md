@@ -3,7 +3,7 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151011278-5efede38-dc56-45b7-bee2-ce195492ab5e.jpg"> </img>  </p>
 
 
-<h2 align="center"> A Completely Responsive Web Application Containing:</h2>
+<h1 align="center"> A Completely Responsive Web Application Containing:</h1>
 
 * A comprehensive collection of COVID-19 resources across India.
 * Resources curated according to different cities, states and also containing national resources.
