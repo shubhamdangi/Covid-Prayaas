@@ -1,7 +1,6 @@
 
 
-<h1 align="center">Covid Prayaas</h1>
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151011278-5efede38-dc56-45b7-bee2-ce195492ab5e.jpg"> </img>  </p>
 
 
 <h2 align="center"> A Completely Responsive Web Application Containing:</h2>
