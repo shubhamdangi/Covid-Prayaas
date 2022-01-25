@@ -32,11 +32,14 @@
 <br>
 <br>
 
-<!-- # Upcoming Features
-- Sort and Search by category
-- Add to wishlist
-- Request a product
-<br> -->
+<h3>Note:</h3>I've manually curated the content, But due to the nature and paucity of the information, All resources are not personally verified. Please use caution and perform due diligence before using them.
+
+<br/>
+<br/>
+
+- Resources Last Updated: 20/06/2021 · 01:05 AM
+
+<br>
 
 <div align="center"><h1>&#127759; visit:<a href="https://covidprayaas.web.app"> Covid Prayaas</a></h1>
 </div>
