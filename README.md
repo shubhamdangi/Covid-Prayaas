@@ -4,7 +4,7 @@
 
 
 
-<h1 align="center"> A Completely Responsive Web Application Containing:</h1>
+<h2 align="center"> A Completely Responsive Web Application Containing:</h2>
 
 * A comprehensive collection of COVID-19 resources across India.
 * Resources curated according to different cities, states and also containing national resources.
