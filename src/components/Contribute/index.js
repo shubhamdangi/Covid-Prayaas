@@ -1,11 +1,24 @@
 import React from "react";
 import "./style.css";
 import support from "./support.png";
+import { useHistory } from "react-router-dom";
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import Button from "@material-ui/core/Button";
 
 function Contribute() {
+  let history = useHistory();
+
   return (
     <div className="gform">
       <br /> <br /> <br />
+      <div
+        className="back"
+        style={{ textAlign: "left", padding: "0 0 0 20px" }}
+      >
+        <Button onClick={() => history.goBack()}>
+          <ArrowBackIosIcon /> Go Back
+        </Button>
+      </div>
       <img src={support} alt="support" style={{ width: "100px" }} />
       <h2>Contribute Here!</h2>
       <div className="pc">

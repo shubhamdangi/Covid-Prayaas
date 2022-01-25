@@ -1,14 +1,27 @@
 import React, { useEffect } from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import Citymap from "./city-map.png";
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import Button from "@material-ui/core/Button";
+
 function Cities() {
+  let history = useHistory();
+
   useEffect(() => {
     document.title = "Covid Prayaas | Cities";
   }, []);
 
   return (
     <div className="citypage">
+      <div
+        className="back"
+        style={{ textAlign: "left", padding: "0 0 0 20px" }}
+      >
+        <Button onClick={() => history.goBack()}>
+          <ArrowBackIosIcon /> Go Back
+        </Button>
+      </div>
       <img
         src={Citymap}
         alt="city-map"

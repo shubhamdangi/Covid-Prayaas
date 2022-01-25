@@ -45,7 +45,7 @@ function Feed() {
             </div>
           </div>
         </div>
-        <hr />
+        {/* <hr /> */}
         <div className="dash">
           <div className="Head">
             <hr />
@@ -58,15 +58,15 @@ function Feed() {
               />
               <span style={{ color: "#222831" }}>
                 &nbsp;Select <span style={{ fontWeight: "bold" }}>Cities</span>{" "}
-                and <span style={{ fontWeight: "bold" }}>States</span> from the
-                menu above to find specific resources.
+                and <span style={{ fontWeight: "bold" }}>States</span> to find
+                specific resources.
               </span>
             </h3>
 
             <hr />
             <br />
-            <hr />
-            <img src={flagImage} alt="indore-image" className="flagImage" />
+            {/* <hr /> */}
+            <img src={flagImage} alt="India-image" className="flagImage" />
             <h1>National Resources</h1>
             <hr />
           </div>

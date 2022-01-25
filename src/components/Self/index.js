@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 import "./style.css";
 import self from "./house.png";
+import { useHistory } from "react-router-dom";
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import Button from "@material-ui/core/Button";
+
 function Self() {
+  let history = useHistory();
+
   useEffect(() => {
     document.title = "Covid Prayaas | Self Care";
   }, []);
@@ -9,6 +15,14 @@ function Self() {
   return (
     <>
       <div className="dash1">
+        <div
+          className="back"
+          style={{ textAlign: "left", padding: "0 0 0 20px" }}
+        >
+          <Button onClick={() => history.goBack()}>
+            <ArrowBackIosIcon /> Go Back
+          </Button>
+        </div>
         <div className="Head">
           <img src={self} alt="self-image" className="selfImage" />
           <h4>Self Care at Home</h4>
