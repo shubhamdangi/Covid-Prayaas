@@ -1,9 +1,8 @@
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Cities from "./components/Cities";
-import States from "./components/States";
-import Self from "./components/Self";
+import { Cities, States, Self, ScrollTop } from "./components";
+
 import {
   Ahmedabad,
   Bangalore,
@@ -145,6 +144,7 @@ function App() {
         </div>
         <br />
         <Footer />
+        <ScrollTop />
       </Router>
       <Scroll showBelow={550} />
     </div>

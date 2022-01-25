@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import logo from "./logo.png";
+import logo from "./images/logo.png";
 import { NavLink, Link } from "react-router-dom";
-import rol from "./rolo1.gif";
+import rol from "./images/rolo1.gif";
 
 function Navbar() {
   return (

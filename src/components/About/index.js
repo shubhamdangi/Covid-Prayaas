@@ -17,7 +17,7 @@ function About() {
         style={{ width: "150px", padding: "15px" }}
       />
       <p style={{ fontSize: "20px", marginLeft: "0" }}>
-        Hello, i'm Shubham Dangi a CSE student & a web developer from Bangalore
+        Hello, I'm Shubham Dangi a CSE student & a web developer from Bangalore
         India, and I created{" "}
         <span style={{ fontWeight: "600" }}>COVID Prayaas</span> to help people
         access multiple resources related to COVID-19 at one place quickly and

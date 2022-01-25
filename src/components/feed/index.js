@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
-import bannerImage from "./bannerImage2.png";
+import bannerImage from "./images/bannerImage2.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import flagImage from "./flag4.png";
-import mobile from "./mobile.png";
-import rol from "../Navbar/roli8.gif";
+import flagImage from "./images/flag4.png";
+import mobile from "./images/mobile.png";
+import rol from "../Navbar/images/roli8.gif";
 
 function Feed() {
   return (

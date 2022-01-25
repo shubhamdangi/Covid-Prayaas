@@ -6,3 +6,4 @@ export { default as Self } from "./Self";
 export { default as About } from "./About";
 export { default as Contribute } from "./Contribute";
 export { default as Scroll } from "./Scroll";
+export { default as ScrollTop } from "./scrollToTop";
