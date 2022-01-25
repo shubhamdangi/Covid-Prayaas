@@ -10,15 +10,7 @@
 * Providing option to submit a resource and contribute.
 * Created during the deadly second wave of COVID in India.
 
-<br/>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/150989712-d48f426b-5799-44ec-9b82-6b462d1b6546.gif"> </img>  </p>
-
-<br/>
-
-<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151006885-2f13d678-68a5-426f-b4b7-533816ef3274.gif"> </img>  </p>
-
-<hr/>
 
 ## Powered by
 
@@ -30,6 +22,17 @@
 [![Firebase](https://img.shields.io/badge/firebase-20232A.svg?style=for-the-badge&logo=firebase)](#)
 
 <br/>
+<br/>
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/150989712-d48f426b-5799-44ec-9b82-6b462d1b6546.gif"> </img>  </p>
+
+<br/>
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151006885-2f13d678-68a5-426f-b4b7-533816ef3274.gif"> </img>  </p>
+
+<hr/>
+
+
 
 
 <!-- ![Covid Mobile view new](https://user-images.githubusercontent.com/51415346/151006885-2f13d678-68a5-426f-b4b7-533816ef3274.gif) -->
