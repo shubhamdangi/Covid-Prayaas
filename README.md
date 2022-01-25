@@ -35,8 +35,7 @@
 
 <!-- ![Covid Mobile view new](https://user-images.githubusercontent.com/51415346/151006885-2f13d678-68a5-426f-b4b7-533816ef3274.gif) -->
 
-<br>
-<br>
+
 
 <h3>Note:</h3>I've manually curated the content, But due to the nature and paucity of the information, All resources are not personally verified. Please use caution and perform due diligence before using them.
 
