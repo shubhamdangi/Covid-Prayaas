@@ -4,11 +4,12 @@
 
 
 
-## Key Features
+<h1 align="center"> A Completely Responsive Web Application Containing:</h1>
+
 * A comprehensive collection of COVID-19 resources across India.
-* Created during the deadly second wave of COVID in India.
 * Resources curated according to different cities, states and also containing national resources.
 * Providing option to submit a resource and contribute.
+* * Created during the deadly second wave of COVID in India.
 
 <br/>
 
