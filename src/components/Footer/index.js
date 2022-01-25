@@ -8,9 +8,9 @@ function Footer() {
     <>
       <div className="footer">
         <div className="icon" style={{ padding: "0 10px 0 10px" }}>
-          <a href="https://www.facebook.com/shubhamdangi.sd">
+          {/* <a href="https://www.facebook.com/shubhamdangi.sd">
             <i class="icons fab fa-facebook fa-lg"></i>
-          </a>
+          </a> */}
 
           <a href="https://twitter.com/ishubhamdangi">
             <i class=" icons fab fa-twitter fa-lg"></i>

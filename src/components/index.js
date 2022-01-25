@@ -1,4 +1,4 @@
-export { default as Feed } from "./feed";
+export { default as Feed } from "./Feed";
 export { default as Home } from "./Home";
 export { default as States } from "./States";
 export { default as Cities } from "./Cities";

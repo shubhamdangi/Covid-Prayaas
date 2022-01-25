@@ -49,23 +49,7 @@ function Feed() {
         <div className="dash">
           <div className="Head">
             <hr />
-            <h3 style={{ margin: "0 6px 0 5px" }}>
-              <img
-                src={rol}
-                alt="rol gif"
-                style={{ width: "22px", margin: "-4px -6px 0 0" }}
-                className="dot2"
-              />
-              <span style={{ color: "#222831" }}>
-                &nbsp;Select <span style={{ fontWeight: "bold" }}>Cities</span>{" "}
-                and <span style={{ fontWeight: "bold" }}>States</span> to find
-                specific resources.
-              </span>
-            </h3>
 
-            <hr />
-            <br />
-            {/* <hr /> */}
             <img src={flagImage} alt="India-image" className="flagImage" />
             <h1>National Resources</h1>
             <hr />

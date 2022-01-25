@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Feed from "../feed";
+import Feed from "../Feed";
 
 function Home() {
   useEffect(() => {

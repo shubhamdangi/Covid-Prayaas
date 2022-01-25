@@ -20,7 +20,7 @@ function Contribute() {
         </Button>
       </div>
       <img src={support} alt="support" style={{ width: "100px" }} />
-      <h2>Contribute Here!</h2>
+      <h2>Contribute a Resource</h2>
       <div className="pc">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLScCVb44pWKwtrjkOa_cct1-S0fOtzS4hFWfQggvs05m1d6DjA/viewform?embedded=true"

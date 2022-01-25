@@ -1,27 +1,28 @@
-.Head{
-    text-align: center;
+.Head {
+  text-align: center;
 }
 
-.ahemdabadImage{
-    /* margin: -130px 0 -175px 0; */
-    padding-top: 10px;
-    width: 550px;
-    height: 230px;
-    border-radius: 5%;
+.ahemdabadImage {
+  /* margin: -130px 0 -175px 0; */
+  padding-top: 10px;
+  width: 550px;
+  height: 230px;
+  border-radius: 5%;
 }
 
-.pagedata{
-    padding-top: 60px;
+.pagedata {
+  padding-top: 60px;
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
-    .ahemdabadImage {
-        /* margin: -90px 0 -100px 0; */
-        width: 280px;
-        height: 130px;
-    }
+  .ahemdabadImage {
+    /* margin: -90px 0 -100px 0; */
+    width: 280px;
+    height: 130px;
+  }
 }
 
-p{
-    margin-left: 24px;
+p {
+  margin-left: 24px;
 }
