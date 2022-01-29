@@ -29,7 +29,7 @@
 
 <br/>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151006885-2f13d678-68a5-426f-b4b7-533816ef3274.gif"> </img>  </p>
+<!-- <p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151006885-2f13d678-68a5-426f-b4b7-533816ef3274.gif"> </img>  </p> -->
 
 <hr/>
 
