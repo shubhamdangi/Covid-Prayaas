@@ -1,0 +1,18 @@
+export const states = [
+  " Andhra Pradesh",
+  "Bihar ",
+  "Chhattisgarh ",
+  "Goa ",
+  "Haryana ",
+  "Jharkhand ",
+  "Karnataka ",
+  "Kerala ",
+  "Madhya Pradesh",
+  "Maharashtra ",
+  "Punjab ",
+  "Rajasthan ",
+  "Tamil Nadu ",
+  "Telangana",
+  "Uttar Pradesh",
+  "West Bengal",
+];

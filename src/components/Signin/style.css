@@ -1,0 +1,9 @@
+.signin {
+  /* display: flex; */
+  text-align: center;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding: 3.5vh 0 0 0;
+  margin: auto;
+}

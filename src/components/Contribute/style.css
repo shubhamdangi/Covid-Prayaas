@@ -1,17 +1,28 @@
-
-@media only screen and (min-width: 600px){
-    .mobile{
-        display: none;
-    }
+@media only screen and (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 600px){
-    .pc{
-        display: none;
-    }
+@media only screen and (max-width: 600px) {
+  .pc {
+    display: none;
+  }
 }
 
-.gform{
-    
-    text-align: center;
+.contrib-page {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.center_div {
+  margin: 0 auto;
+  width: 80%; /* value of your choice which suits your alignment */
+}
+
+.contrib-form {
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  padding-top: 8px;
 }
