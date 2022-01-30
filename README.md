@@ -25,11 +25,11 @@
 <br/>
 <br/>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151696496-e9145291-8ffb-40f8-bc23-b7ea31a2249b.gif"> </img>  </p>
+<p align="center">Desktop View: <br/>  <br/><img src="https://user-images.githubusercontent.com/51415346/151696496-e9145291-8ffb-40f8-bc23-b7ea31a2249b.gif"> </img>  </p>
 
 <br/>
 
-<p align="center" > <img height="620px" width="350px" src="https://user-images.githubusercontent.com/51415346/151697450-c46052ed-b46e-4d32-adec-4c30a9f2c905.gif"> </img>  </p>
+<p align="center" >Mobile View: <br/>  <br/> <img height="620px" width="350px" src="https://user-images.githubusercontent.com/51415346/151697450-c46052ed-b46e-4d32-adec-4c30a9f2c905.gif"> </img>  </p>
 
 <hr/>
 
