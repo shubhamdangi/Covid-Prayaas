@@ -29,7 +29,7 @@
 
 <br/>
 
-<p align="center" >Mobile View: <br/>  <br/> <img height="620px" width="350px" src="https://user-images.githubusercontent.com/51415346/151697450-c46052ed-b46e-4d32-adec-4c30a9f2c905.gif"> </img>  </p>
+<p align="center" >Mobile View: <br/>  <br/> <img height="620px" width="320px" src="https://user-images.githubusercontent.com/51415346/151697450-c46052ed-b46e-4d32-adec-4c30a9f2c905.gif"> </img>  </p>
 
 <hr/>
 
