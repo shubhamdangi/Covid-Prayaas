@@ -8,7 +8,7 @@
 
 * A comprehensive collection of COVID-19 resources across India.
 * Resources curated according to different cities, states and also containing national resources.
-* Providing option to submit a resource and contribute.
+* Providing option to Sign in with Google and submit a resource.
 * Created during the deadly second wave of COVID in India.
 
 
@@ -25,11 +25,11 @@
 <br/>
 <br/>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/150989712-d48f426b-5799-44ec-9b82-6b462d1b6546.gif"> </img>  </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151696496-e9145291-8ffb-40f8-bc23-b7ea31a2249b.gif"> </img>  </p>
 
 <br/>
 
-<!-- <p align="center"> <img src="https://user-images.githubusercontent.com/51415346/151006885-2f13d678-68a5-426f-b4b7-533816ef3274.gif"> </img>  </p> -->
+<p align="center" > <img height="620px" width="350px" src="https://user-images.githubusercontent.com/51415346/151697450-c46052ed-b46e-4d32-adec-4c30a9f2c905.gif"> </img>  </p>
 
 <hr/>
 
@@ -49,7 +49,7 @@
 
 <br>
 
-<div align="center"><h1>&#127759; visit:<a href="https://covidprayaas.web.app"> Covid Prayaas</a></h1>
+<div align="center" ><h1>&#127759; visit:<a href="https://covidprayaas.web.app"> Covid Prayaas</a></h1>
 </div>
 <br>
 
