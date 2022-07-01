@@ -54,6 +54,10 @@ function Navbar() {
             <li style={{ listStyleType: "none" }}> Self Care</li>
           </NavLink>
 
+          <NavLink to="/public" activeClassName="current">
+            <li style={{ listStyleType: "none" }}> Public Resources</li>
+          </NavLink>
+
           <NavLink to="/contribute" activeClassName="current">
             <li style={{ listStyleType: "none" }}> Contribute</li>
           </NavLink>

@@ -36,8 +36,9 @@ function Contribute() {
   const [contact, setContact] = useState("");
   const [website, setWebsite] = useState("");
   const [additional, setAdditional] = useState("");
-  const [verified, setVerified] = useState(true);
+  const [verified, setVerified] = useState();
   const [openAlert, setOpenAlert] = useState(false);
+  const [time, setTime] = useState("");
 
   const [user] = useAuthState(auth);
   let username = "";
@@ -48,6 +49,37 @@ function Contribute() {
   useEffect(() => {
     document.title = "Covid Prayaas | Contribute";
   }, []);
+
+  //date time function
+  const monthNames = [
+    "Jan",
+    "Feb",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+  var currentdate = new Date();
+  var datetime =
+    monthNames[currentdate.getMonth()] +
+    " " +
+    currentdate.getDate() +
+    " · " +
+    currentdate.toLocaleTimeString("en-US", {
+      hour: "numeric",
+      minute: "numeric",
+      hour12: true,
+    });
+
+  function time1() {
+    setTime(datetime);
+  }
 
   /* function to add new item to firestore */
   const onSubmit = async (e) => {
@@ -64,6 +96,8 @@ function Contribute() {
         additionalInfo: additional,
         website: website,
         created: Timestamp.now(),
+        time: time,
+        email: user.email,
       }).then(
         () => setContact(""),
         setDesc(""),
@@ -136,6 +170,7 @@ function Contribute() {
                       placeholder="Enter City"
                       required
                       value={city}
+                      onClick={time1}
                       onChange={(e) => setCity(e.target.value)}
                     ></Form.Control>
                   </Form.Group>

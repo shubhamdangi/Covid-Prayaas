@@ -1,7 +1,7 @@
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Cities, States, Self, ScrollTop } from "./components";
+import { Cities, States, Self, ScrollTop, Public } from "./components";
 
 import {
   Ahmedabad,
@@ -139,6 +139,9 @@ function App() {
             </Route>
             <Route exact path="/about">
               <About />{" "}
+            </Route>
+            <Route exact path="/public">
+              <Public />{" "}
             </Route>
           </Switch>
         </div>

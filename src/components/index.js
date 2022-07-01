@@ -8,3 +8,4 @@ export { default as Contribute } from "./Contribute";
 export { default as Scroll } from "./Scroll";
 export { default as ScrollTop } from "./scrollToTop";
 export { default as SignIn } from "./Signin";
+export { default as Public } from "./publicResources";
